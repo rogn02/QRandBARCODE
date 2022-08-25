@@ -17,7 +17,7 @@ def MakeQR(url_input,extension_of_qr,qr_file_name):
 def MakeBarcode(Input_String,Format):
   try:
     barcode_format = barcode.get_barcode_class(Format)
-    The_barcode = barcode_format(Number, writer=ImageWriter())
+    The_barcode = barcode_format(Input_String, writer=ImageWriter())
     The_barcode.save("generated_barcode")
   except:
     print("There has been an error:\n*Recheck your input\n*Check your module installations")

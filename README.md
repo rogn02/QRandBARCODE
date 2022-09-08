@@ -1,12 +1,13 @@
+# QR and Barcode generator
 This python program has two functions which allows you to create both QRs and barcodes. It is easy to use and comes with error handling.
 
-Required modules:
+## Required modules:
  pip install pyqrcode
  pip install pypng
  pip install python-barcode
  
 
-The two functions are:
+## The two functions are:
 
 i) MakeQR
   It makes a QR of the input URL and saves it as a PNG or a SVG.
@@ -21,5 +22,7 @@ ii) MakeBarcode
    Input_String: The numeric or alphanumeric input string which hastobe converted to a barcode.
    Format: The format you want for the barcode gen.
   
- Refer here for barcode formats for yourinput string: https://python-barcode.readthedocs.io/en/latest/supported-formats.html
+ ## Reference:
+ 
+ barcode formats for your input string: https://python-barcode.readthedocs.io/en/latest/supported-formats.html
 
